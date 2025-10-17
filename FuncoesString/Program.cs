@@ -1,4 +1,6 @@
-﻿namespace FuncoesString
+using System;
+
+namespace FuncoesString
 {
     class TestClass
     {
@@ -7,28 +9,46 @@
             string frase = "Eu sou da FINANBLUE eu gosto de programar no desenvolvimento";
             string fraseMenor = "desenvolvedor";
 
-            /*RETORNA UM VETOR */
+            Console.WriteLine("===== 🔤 EXEMPLOS DE FUNÇÕES DE STRING EM C# =====\n");
+
+            // LENGTH
+            Console.WriteLine($"➡️ Length (conta número de caracteres): {frase.Length}");
+
+            // SUBSTRING
+            Console.WriteLine($"➡️ Substring(0, 2): {frase.Substring(0, 2)}");
+
+            // TOUPPER e TOLOWER
+            Console.WriteLine($"➡️ ToUpper() + Substring(0, 2): {frase.ToUpper().Substring(0, 2)}");
+            Console.WriteLine($"➡️ ToLower() + Substring(0, 2): {frase.ToLower().Substring(0, 2)}");
+
+            // CONTAINS
+            Console.WriteLine($"➡️ Contains('programar'): {frase.Contains("programar")}");
+
+            // STARTSWITH / ENDSWITH
+            Console.WriteLine($"➡️ StartsWith('desenv'): {fraseMenor.StartsWith("desenv")}");
+            Console.WriteLine($"➡️ EndsWith('dor'): {fraseMenor.EndsWith("dor")}");
+
+            // REPLACE
+            Console.WriteLine($"➡️ Replace('FINANBLUE', 'LiveWork'): {frase.Replace("FINANBLUE", "LiveWork")}");
+
+            // SPLIT
             string splitParaVetor = "maça, banana, laranja";
             string[] partes = splitParaVetor.Split(',');
-            Console.WriteLine("Split ele divite a string em partes e retorna um vetor: " + partes[1]); // banana
+            Console.WriteLine($"➡️ Split(',') -> vetor[1]: {partes[1].Trim()}");
 
-            Console.WriteLine("Length conta números de caracteres: " + frase.Length); //
-            Console.WriteLine(frase + " usando Substring(0,2): " + frase.Substring(0,2)); // eu
-            Console.WriteLine("Usando ToUpper(): " + frase.ToUpper().Substring(0,2)); // ToUpper() mistando com substring
-            Console.WriteLine("Usando ToLower(): " + frase.ToLower().Substring(0, 2)); // ToLower( ele) ele mostra se letra minusculas
-            Console.WriteLine("Usando Contains() ele server para ver se um trecho existe: " + frase.Contains("programar"));
-            Console.WriteLine("StarsWith: " + fraseMenor.StartsWith("desenv")); // pega do começo da String
-            Console.WriteLine("EndWith: " + fraseMenor.EndsWith("dor")); // pega o final da String
-            Console.WriteLine("Replace substitui parte dos texto" + frase.Replace("FINANBLUE","LiveWork")); //  SUBSTITUI DA ESQUERDA("FINANBLUE") PELA DIREITA("LiveWork").
-
-            string[] listaJoin = {"Gilson", "Ana", "Carlos"};
+            // JOIN
+            string[] listaJoin = { "Gilson", "Ana", "Carlos" };
             string resultadoJoin = string.Join(", ", listaJoin);
-            
-            Console.WriteLine("Join() junta várias strings com um separador: " + resultadoJoin);
+            Console.WriteLine($"➡️ Join(', '): {resultadoJoin}");
 
+            // PADLEFT e PADRIGHT
+            Console.WriteLine($"➡️ PadLeft(5, '0') em '45': {"45".PadLeft(5, '0')}");
+            Console.WriteLine($"➡️ PadRight(6, '.') em 'Gil': {"Gil".PadRight(6, '.')}");
 
+            // TRIM
+            Console.WriteLine($"➡️ Trim() remove espaços extras: '{("  Gilson  ".Trim())}'");
 
-            
+            Console.WriteLine("\n===== ✅ FIM DOS EXEMPLOS =====");
         }
     }
 }

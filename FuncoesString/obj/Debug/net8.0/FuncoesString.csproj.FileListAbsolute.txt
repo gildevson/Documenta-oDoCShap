@@ -1,0 +1,14 @@
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\bin\Debug\net8.0\FuncoesString.exe
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\bin\Debug\net8.0\FuncoesString.deps.json
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\bin\Debug\net8.0\FuncoesString.runtimeconfig.json
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\bin\Debug\net8.0\FuncoesString.dll
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\bin\Debug\net8.0\FuncoesString.pdb
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.AssemblyInfoInputs.cache
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.AssemblyInfo.cs
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.csproj.CoreCompileInputs.cache
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.dll
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\refint\FuncoesString.dll
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.pdb
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\FuncoesString.genruntimeconfig.cache
+C:\Users\gilson.GESTOR\source\repos\FuncoesString\FuncoesString\obj\Debug\net8.0\ref\FuncoesString.dll

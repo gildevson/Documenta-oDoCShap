@@ -11,7 +11,7 @@ namespace FuncoesString
 
             Console.WriteLine("===== 🔤 EXEMPLOS DE FUNÇÕES DE STRING EM C# =====\n");
 
-            // LENGTH
+            // LENGTH soma os indices da string
             Console.WriteLine($"➡️ Length (conta número de caracteres): {frase.Length}");
 
             // SUBSTRING
